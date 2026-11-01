@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://degenkit.app/</loc><lastmod>2026-10-31</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://degenkit.app/launch/</loc><lastmod>2026-10-31</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://degenkit.app/launch/solana/</loc><lastmod>2026-10-31</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://degenkit.app/launch/ethereum/</loc><lastmod>2026-10-31</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://degenkit.app/launch/bnb/</loc><lastmod>2026-10-31</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://degenkit.app/launch/base/</loc><lastmod>2026-10-31</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://degenkit.app/launch/robinhood/</loc><lastmod>2026-10-31</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://degenkit.app/support/</loc><lastmod>2026-10-31</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://degenkit.app/terms/</loc><lastmod>2026-10-31</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://degenkit.app/privacy/</loc><lastmod>2026-10-31</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://degenkit.app/</loc><lastmod>2026-11-01</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://degenkit.app/launch/</loc><lastmod>2026-11-01</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://degenkit.app/launch/solana/</loc><lastmod>2026-11-01</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://degenkit.app/launch/ethereum/</loc><lastmod>2026-11-01</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://degenkit.app/launch/bnb/</loc><lastmod>2026-11-01</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://degenkit.app/launch/base/</loc><lastmod>2026-11-01</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://degenkit.app/launch/robinhood/</loc><lastmod>2026-11-01</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://degenkit.app/support/</loc><lastmod>2026-11-01</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://degenkit.app/terms/</loc><lastmod>2026-11-01</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://degenkit.app/privacy/</loc><lastmod>2026-11-01</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://degenkit.app/blog/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://degenkit.app/blog/choosing-decimals-name-and-symbol/</loc><lastmod>2026-11-01</lastmod><priority>0.6</priority></url>
+  <url><loc>https://degenkit.app/blog/lock-liquidity-on-solana-burn-and-earn/</loc><lastmod>2026-11-01</lastmod><priority>0.6</priority></url>
+  <url><loc>https://degenkit.app/blog/rehearse-solana-launch-on-devnet/</loc><lastmod>2026-11-01</lastmod><priority>0.6</priority></url>
+  <url><loc>https://degenkit.app/blog/token-launch-costs-by-network/</loc><lastmod>2026-11-01</lastmod><priority>0.6</priority></url>
+  <url><loc>https://degenkit.app/blog/token-supply-and-allocation/</loc><lastmod>2026-11-01</lastmod><priority>0.6</priority></url>
   <url><loc>https://degenkit.app/blog/degenkit-fees-explained/</loc><lastmod>2026-10-31</lastmod><priority>0.6</priority></url>
   <url><loc>https://degenkit.app/blog/how-to-launch-a-token-on-bnb-chain/</loc><lastmod>2026-10-31</lastmod><priority>0.6</priority></url>
   <url><loc>https://degenkit.app/blog/how-to-spot-a-honeypot-token/</loc><lastmod>2026-10-31</lastmod><priority>0.6</priority></url>
