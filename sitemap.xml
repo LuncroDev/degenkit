@@ -75,4 +75,7 @@
   <url><loc>https://degenkit.app/docs/troubleshooting/</loc><lastmod>2026-11-01</lastmod><priority>0.6</priority></url>
   <url><loc>https://degenkit.app/docs/faq/</loc><lastmod>2026-11-01</lastmod><priority>0.6</priority></url>
   <url><loc>https://degenkit.app/docs/official-links/</loc><lastmod>2026-11-01</lastmod><priority>0.6</priority></url>
+  <url><loc>https://degenkit.app/tools/</loc><lastmod>2026-11-02</lastmod><priority>0.6</priority></url>
+  <url><loc>https://degenkit.app/tools/token-approval-checker/</loc><lastmod>2026-11-02</lastmod><priority>0.8</priority></url>
+  <url><loc>https://degenkit.app/tools/robinhood-chain-rpc/</loc><lastmod>2026-11-02</lastmod><priority>0.8</priority></url>
 </urlset>

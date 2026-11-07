@@ -153,7 +153,7 @@ def load_posts():
         html_body, toc = render(body)
         words = len(re.findall(r"\w+", body))
         posts.append(dict(
-            title=meta["title"], slug=slug, date=date, excerpt=meta["excerpt"],
+            title=meta["title"], seo_title=meta.get("seo_title", ""), slug=slug, date=date, excerpt=meta["excerpt"],
             cover=meta.get("cover", ""), cover_alt=meta.get("cover_alt", meta["title"]),
             tags=[t.strip() for t in meta.get("tags", "").split(",") if t.strip()],
             body=html_body, minutes=max(1, math.ceil(words / 200)),
@@ -204,7 +204,7 @@ FOOTER = """<footer>
         <p>Token creation, without the guesswork. Launch on Solana, Ethereum, BNB Chain, Base and Robinhood Chain.</p>
       </div>
       <div class="footer-cols">
-        <div class="footer-col"><h4>Site</h4><a href="/">Home</a><a href="/launch/">Launch App</a><a href="/docs/">Docs</a><a href="/blog/">Blog</a></div>
+        <div class="footer-col"><h4>Site</h4><a href="/">Home</a><a href="/launch/">Launch App</a><a href="/docs/">Docs</a><a href="/blog/">Blog</a><a href="/tools/">Free tools</a></div>
         <div class="footer-col"><h4>Legal</h4><a href="/terms/">Terms &amp; Conditions</a><a href="/security/">Security</a><a href="/privacy/">Privacy Policy</a></div>
         <div class="footer-col"><h4>Help</h4><a href="/support/">Support</a></div>
       </div>
@@ -387,7 +387,7 @@ def build_post(p, posts):
   {related}
 </main>"""
     d = OUT / p["slug"]; d.mkdir(parents=True, exist_ok=True)
-    (d / "index.html").write_text(page(f"{p['title']} | DegenKit Blog", p["excerpt"], url, body, og_img, "article", jsonld, extra), encoding="utf-8")
+    (d / "index.html").write_text(page(f"{p['seo_title'] or p['title']} | DegenKit Blog", p["excerpt"], url, body, og_img, "article", jsonld, extra), encoding="utf-8")
 
 def build_rss(posts):
     items = "".join(f"<item><title>{esc(p['title'])}</title><link>{SITE}/blog/{p['slug']}/</link><guid>{SITE}/blog/{p['slug']}/</guid>"
